@@ -1,0 +1,20 @@
+.NumberInput{
+    background-color: #b2bdfb;
+    color: #ffff;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.NumberInput:focus {
+    outline: none !important;
+    border:2px solid #4092a6;
+}
+
+@media screen and (max-width: 250px){
+    .NumberInput{
+        width: 100%;
+    }
+}
